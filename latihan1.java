@@ -10,7 +10,7 @@ public class latihan1 {
         String[][] menuMakanan = {
             {"Nasi Goreng", "15000"},
             {"Mie Goreng", "12000"},
-            {"Ayam Bakar", "20000"},
+            {"Ayam Bakar", "20100"},
             {"Sate Ayam", "18000"},
             {"Bakso", "13000"}
         };

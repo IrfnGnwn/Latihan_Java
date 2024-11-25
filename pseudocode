@@ -1,0 +1,29 @@
+START
+1. IMPORT library Scanner
+2. DECLARE variable `jumlahmahasiswa` as integer
+3. DECLARE variables `totalnilai`, `nilai`, `ratarata` as double and initialize `totalnilai` to 0.0
+4. DISPLAY "Program Menghitung Rata-Rata Nilai"
+5. DO
+    DISPLAY "Masukkan Jumlah Mahasiswa: "
+    READ `jumlahmahasiswa`
+    IF `jumlahmahasiswa` <= 0 THEN
+     DISPLAY "Silahkan masukkan angka lebih dari 0."
+    END IF
+   WHILE `jumlahmahasiswa` > 0
+6. FOR each student from 1 to `jumlahmahasiswa` DO
+   a. PROMPT user to input the score of the student
+      DISPLAY "Masukkan nilai mahasiswa ke-[i]: "
+   b. READ `nilai`
+   c. ADD `nilai` to `totalnilai`
+   END FOR
+
+7. CALCULATE `ratarata` as `totalnilai` divided by `jumlahmahasiswa`
+
+8. DISPLAY "Rata-Rata Nilai Kelas: " + `ratarata`
+
+9. IF `ratarata` > 85 THEN
+    DISPLAY "Kelas Berprestasi"
+    ELSE 
+    DISPLAY "Maaf, Kelas Tidak Berprestasi"
+   END IF
+END
